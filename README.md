@@ -1,4 +1,17 @@
 # WORK-SPECIALTY
+## 最近几年前端发展趋势
+1. 从框架层面开始：backbone -> angular -> react
+2. 工具生态：grunt -> gulp -> webpack
+3. 语言：JavaScript 1.3 -> ECMA 5 -> ECMA 2015，CSS2.1 -> CSS3.0，XHTML -> HTML4.0 -> HTML5.0
+4. Firefox OS （虽然它挂了）
+5. 桌面应用：NW.js -> Electron
+6. 出现了Node.js和Mongodb
+7. 服务端框架：Express -> koa
+8. 移动应用：PhoneGap -> Cordova | ionic -> React Native | weex
+9. 语法检查：jslint -> eslint
+10. 模块化：AMD | CMD -> Commonjs -> import export
+11. 语法增强：CoffeeScript -> Dart -> TypeScrip
+
 ##  html
 ##  css
 ##  css-library

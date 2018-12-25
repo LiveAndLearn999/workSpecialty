@@ -15,7 +15,7 @@
 ##  html
 1. 菜鸟教程：http://www.runoob.com/（HTML事件：http://www.runoob.com/tags/ref-eventattributes.html）
 ##  css
-1. 菜鸟教程：http://www.runoob.com/
+1. 菜鸟教程：http://www.runoob.com/ (伪类：http://www.runoob.com/css/css-pseudo-classes.html 伪元素 http://www.runoob.com/css/css-pseudo-elements.html)
 ##  css-library
 ####   30个免费css库（http://www.html580.com/6412）
 ##  css-Preprocessor

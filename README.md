@@ -60,6 +60,9 @@
  * JAVASCRIPT 网页的行为
 
 ####   ES6
+####   ES7
+####   JSX
+####   TYPESCRIPT
 ##  S-library
 ####   jquery
 ####   Prototype

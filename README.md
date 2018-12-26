@@ -58,6 +58,14 @@
  * HTML 定义了网页的内容
  * CSS  描述了网页的布局
  * JAVASCRIPT 网页的行为
+3. 字面量的定义
+  * 在编程语言中，一般固定值称为字面量
+    1. 数字（Number）字面量 可以是整数或者是小数，或者是科学计数(e)。 如：3.14  1001 123e5 
+    2. 字符串（String）字面量 可以使用单引号或双引号:    如; "John Doe"
+    3. 表达式字面量 用于计算：              如：5 + 6  5*6
+    4. 数组（Array）字面量 定义一个数组：   如：[40, 100, 1, 5, 25, 10] 
+    5. 对象（Object）字面量 定义一个对象：  如：{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"} 
+    6. 函数（Function）字面量 定义一个函数：如：function myFunction(a, b) { return a * b;} 
 
 ####   ES6
 ####   ES7

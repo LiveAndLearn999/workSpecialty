@@ -58,7 +58,7 @@
  * HTML 定义了网页的内容
  * CSS  描述了网页的布局
  * JAVASCRIPT 网页的行为
-3. 字面量的定义
+3. 字面量的定义---------（变量是一个名称。字面量是一个值。）
   * 在编程语言中，一般固定值称为字面量
     1. 数字（Number）字面量 可以是整数或者是小数，或者是科学计数(e)。 如：3.14  1001 123e5 
     2. 字符串（String）字面量 可以使用单引号或双引号:    如; "John Doe"
@@ -66,6 +66,21 @@
     4. 数组（Array）字面量 定义一个数组：   如：[40, 100, 1, 5, 25, 10] 
     5. 对象（Object）字面量 定义一个对象：  如：{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"} 
     6. 函数（Function）字面量 定义一个函数：如：function myFunction(a, b) { return a * b;} 
+  * 变量是一个名称。字面量是一个值。
+4. 判断该对象是否为数组
+  * 使用 isArray 方法 if (Array.isArray) {if(Array.isArray(cars)) {document.write("该对象是一个数组。") ;}}、
+  * 使用 instanceof 操作符 if (cars instanceof Array) {document.write("该对象是一个数组。") ;}
+5.  undefined 和 null 都是小写，并且。
+  * var x,y;if(x == null){document.write(x);}          //undefined
+  * if(y == undefined){document.write(y);}             //undefined
+6. javascript 作用域
+  * 作用域为可访问变量，对象，函数的集合（JavaScript 函数作用域: 作用域在函数内修改。）
+7. javascript变量生命周期
+  * JavaScript 变量生命周期在它声明时初始化
+  * 局部变量在函数执行完毕后销毁
+  * 全局变量在页面关闭后销毁
+8. javascript 字符串对象
+  * 菜鸟 http://www.runoob.com/jsref/jsref-obj-string.html
 
 ####   ES6
 ####   ES7

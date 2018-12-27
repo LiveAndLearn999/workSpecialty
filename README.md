@@ -46,6 +46,9 @@
     
 ##  css-library
 ####   30个免费css库（http://www.html580.com/6412）
+#### css动画插件
+  *  https://www.cnblogs.com/sunny0120/p/6669688.html
+  * 2018 15个css/javascript库 推荐 https://baijiahao.baidu.com/s?id=1595516973359211872&wfr=spider&for=pc
 
 ##  css-Preprocessor
 ####   Sass
@@ -87,6 +90,18 @@
 9. javascript 字符串对象
   * 菜鸟 http://www.runoob.com/jsref/jsref-obj-string.html
 10. javascript 执行上下文
+  * 执行环境
+    * 执行环境的分类
+      * 全局执行环境
+        * 是JS代码开始运行时的默认环境（浏览器中为window对象）。全局执行环境的变量，对象始终都是作用域链中的最后一个对象
+      * 函数执行环境
+        * 当某个函数被调用时，会先创建一个执行环境及相应的作用域链。然后使用arguments和其他命名参数的值来初始化执行环境的变量对象。
+      * 使用eval()执行代码
+    * 执行上下文（执行环境）的组成
+      * 执行环境（execution context，EC）或称之为执行上下文，是JS中一个极为重要的概念。当JavaScript代码执行时，会进入不同的执行上下文，而每个执行上下文的组成
+        * 变量对象（Variable object，VO）: 变量对象，即包含变量的对象，除了我们无法访问它外，和普通对象没什么区别
+        * [Scope]]属性:数组。作用域链是一个由变量对象组成的带头结点的单向链表，其主要作用就是用来进行变量查找。而[[Scope]]属性是一个指向这个链表头节点的指针。
+        * this: 指向一个环境对象，注意是一个对象，而且是一个普通对象，而不是一个执行环境。
 11. javascript 预解析
   * JavaScript 中，函数及变量的声明都将被提升到函数的最顶部。 
   * 遇到 script 标签的话 js 就进行预解析，将变量 var 和 function 声明提升，但不会执行 function，然后就进入上下文执行，上下文执行还是执行预解析同样操作，直到没有 var 和 function，就开始执行上下文。需要注意都是函数声明提升直接把整个函数提到执行环境的最顶端。
@@ -112,6 +127,10 @@
 ####   Prototype
 ####   zepto
 ####   常用JS库整理 https://www.jianshu.com/p/dccad48bed89 11个实用的JavaScript库 https://blog.csdn.net/moyouyou123/article/details/80797684 JS常用库收集 http://www.cnblogs.com/Aaxuan/p/9424430.html
+
+#### layui https://www.layui.com/doc/modules/layer.html
+
+#### bootstrap
 
 ##  JS-frame 
 ####   vue

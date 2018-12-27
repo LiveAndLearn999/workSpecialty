@@ -14,6 +14,7 @@
 
 ##  html
 1. 菜鸟教程：http://www.runoob.com/（HTML事件：http://www.runoob.com/tags/ref-eventattributes.html）
+
 ##  css
 1. 菜鸟教程：http://www.runoob.com/ (伪类：http://www.runoob.com/css/css-pseudo-classes.html 伪元素 http://www.runoob.com/css/css-pseudo-elements.html)
 * 1 伪类PK伪元素
@@ -58,7 +59,11 @@
  * HTML 定义了网页的内容
  * CSS  描述了网页的布局
  * JAVASCRIPT 网页的行为
-3. 字面量的定义---------（变量是一个名称。字面量是一个值。）
+3. javascript组成部分
+  * ECMAScript
+  * DOM
+  * BOM
+4. 字面量的定义---------（变量是一个名称。字面量是一个值。）
   * 在编程语言中，一般固定值称为字面量
     1. 数字（Number）字面量 可以是整数或者是小数，或者是科学计数(e)。 如：3.14  1001 123e5 
     2. 字符串（String）字面量 可以使用单引号或双引号:    如; "John Doe"
@@ -67,32 +72,32 @@
     5. 对象（Object）字面量 定义一个对象：  如：{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"} 
     6. 函数（Function）字面量 定义一个函数：如：function myFunction(a, b) { return a * b;} 
   * 变量是一个名称。字面量是一个值。
-4. 判断该对象是否为数组
+5. 判断该对象是否为数组
   * 使用 isArray 方法 if (Array.isArray) {if(Array.isArray(cars)) {document.write("该对象是一个数组。") ;}}、
   * 使用 instanceof 操作符 if (cars instanceof Array) {document.write("该对象是一个数组。") ;}
-5.  undefined 和 null 都是小写，并且。
+6.  undefined 和 null 都是小写，并且。
   * var x,y;if(x == null){document.write(x);}          //undefined
   * if(y == undefined){document.write(y);}             //undefined
-6. javascript 作用域
+7. javascript 作用域
   * 作用域为可访问变量，对象，函数的集合（JavaScript 函数作用域: 作用域在函数内修改。）
-7. javascript变量生命周期
+8. javascript变量生命周期
   * JavaScript 变量生命周期在它声明时初始化
   * 局部变量在函数执行完毕后销毁
   * 全局变量在页面关闭后销毁
-8. javascript 字符串对象
+9. javascript 字符串对象
   * 菜鸟 http://www.runoob.com/jsref/jsref-obj-string.html
-9. javascript 执行上下文
-10. javascript 预解析
+10. javascript 执行上下文
+11. javascript 预解析
   * JavaScript 中，函数及变量的声明都将被提升到函数的最顶部。 
   * 遇到 script 标签的话 js 就进行预解析，将变量 var 和 function 声明提升，但不会执行 function，然后就进入上下文执行，上下文执行还是执行预解析同样操作，直到没有 var 和 function，就开始执行上下文。需要注意都是函数声明提升直接把整个函数提到执行环境的最顶端。
   * 使用匿名函数的方式不存在函数提升，因为函数名称使用变量表示的，只存在变量提升 var getName=function(){console.log(2);}  function getName(){console.log(1);} getName();//结果为2
-11. JavaScript中浮点数的运算
+12. JavaScript中浮点数的运算
   * 所有的编程语言，包括 JavaScript，对浮点型数据的精确度都很难确定：
   * JavaScript 中的所有数据都是以 64 位浮点型数据(float) 来存储。
   * 为解决以上问题，可以用整数的乘除法来解决：var z = (x * 10 + y * 10) / 10;
-12. javascript:void(0) 含义 
+13. javascript:void(0) 含义 
   * javascript:void(0) 中最关键的是 void 关键字， void 是 JavaScript 中非常重要的关键字，该操作符指定要计算一个表达式但是不返回值。 
-13. 闭包
+14. 闭包
   * 闭包是可访问上一层函数作用域里变量的函数，即便上一层函数已经关闭
 
 

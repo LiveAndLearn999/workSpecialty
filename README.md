@@ -81,6 +81,22 @@
   * 全局变量在页面关闭后销毁
 8. javascript 字符串对象
   * 菜鸟 http://www.runoob.com/jsref/jsref-obj-string.html
+9. javascript 执行上下文
+10. javascript 预解析
+  * JavaScript 中，函数及变量的声明都将被提升到函数的最顶部。 
+  * 遇到 script 标签的话 js 就进行预解析，将变量 var 和 function 声明提升，但不会执行 function，然后就进入上下文执行，上下文执行还是执行预解析同样操作，直到没有 var 和 function，就开始执行上下文。需要注意都是函数声明提升直接把整个函数提到执行环境的最顶端。
+  * 使用匿名函数的方式不存在函数提升，因为函数名称使用变量表示的，只存在变量提升 var getName=function(){console.log(2);}  function getName(){console.log(1);} getName();//结果为2
+11. JavaScript中浮点数的运算
+  * 所有的编程语言，包括 JavaScript，对浮点型数据的精确度都很难确定：
+  * JavaScript 中的所有数据都是以 64 位浮点型数据(float) 来存储。
+  * 为解决以上问题，可以用整数的乘除法来解决：var z = (x * 10 + y * 10) / 10;
+12. javascript:void(0) 含义 
+  * javascript:void(0) 中最关键的是 void 关键字， void 是 JavaScript 中非常重要的关键字，该操作符指定要计算一个表达式但是不返回值。 
+13. 闭包
+  * 闭包是可访问上一层函数作用域里变量的函数，即便上一层函数已经关闭
+
+
+
 
 ####   ES6
 ####   ES7

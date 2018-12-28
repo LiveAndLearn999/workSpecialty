@@ -90,6 +90,8 @@
 9. javascript 字符串对象
   * 菜鸟 http://www.runoob.com/jsref/jsref-obj-string.html
 10. javascript 执行上下文
+  https://juejin.im/post/5af9933bf265da0ba063490e
+  https://www.jianshu.com/p/8f19e45fd1f1
   * 执行环境
     * 执行环境的分类
       * 1.全局执行环境
@@ -197,6 +199,15 @@
       * 解决在一个单一网络上传输数据包的问题。IP协议是网络层协议。
   8. 数据链路层协议
       * 它是数据包从一个设备的网络层传输到另外一个设备的网络层遵循的规范。比如以太网协议、Wi-Fi协议。
+      
+## 深入JavaScript
+  https://www.zhihu.com/question/22855484/answer/22875761
+#### javascript命名空间
+  1. 命名空间namespace（某些语言中叫package），是一个在静态语言中常见的概念。它可以帮助我们更好地整理代码，并可避免命名冲突https://www.jianshu.com/p/554454d951d9
+  2. 核心知识点 https://www.cnblogs.com/digdeep/p/4175969.html
+    * 利用了 window 这个特殊引用的不可覆盖性，不可修改；
+    * 命名空间其实是对象链条来模拟的
+    * 理解引用的含义：引用是个在stack上的变量，可以修改它指向不同的对象，要访问或者说修改他指向的对象，必须使用 “.” 点操作符，比如 o.index ={}; 而单纯的修改 o ，比如 o = {}; 并不会修改他指向的对象，因为 没有访问到他指向的对象，怎么能修改到他指向的对象呢？
 
 ## ServerSide
 #### node

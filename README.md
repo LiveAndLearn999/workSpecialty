@@ -259,7 +259,16 @@ https://juejin.im/post/5965943ff265da6c30653879
       *  具体形式如下：(p1|p2|p3)，其中p1、p2和p3是子模式，用|（管道符）分隔，表示其中任何之一。
       
   6.  正则表达式位置匹配攻略
-   *  
+   * 位置
+       *  位置是相邻字符之间的位置
+   * 匹配位置
+       *  在ES5中，共有6个锚字符：  ^ $ \b \B (?=p) (?!p)
+       *  ^（脱字符）匹配开头，在多行匹配中匹配行开头。
+       *  $（美元符号）匹配结尾，在多行匹配中匹配行结尾。
+       *  比如我们把字符串的开头和结尾用"#"替换（位置可以替换成字符的！） var result = "hello".replace(/^|$/g, '#');console.log(result); // => "#hello#"
+       *  多行匹配模式时，二者是行的概念，这个需要我们的注意： var result = "I\nlove\njavascript".replace(/^|$/gm, '#');console.log(result);/*#I# #love# #javascript# */
+
+
       
   
   https://www.zhihu.com/question/22855484/answer/22875761

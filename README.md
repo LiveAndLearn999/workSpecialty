@@ -267,6 +267,20 @@ https://juejin.im/post/5965943ff265da6c30653879
        *  $（美元符号）匹配结尾，在多行匹配中匹配行结尾。
        *  比如我们把字符串的开头和结尾用"#"替换（位置可以替换成字符的！） var result = "hello".replace(/^|$/g, '#');console.log(result); // => "#hello#"
        *  多行匹配模式时，二者是行的概念，这个需要我们的注意： var result = "I\nlove\njavascript".replace(/^|$/gm, '#');console.log(result);/*#I# #love# #javascript# */
+       *  \b是单词边界，具体就是\w和\W之间的位置，也包括\w和^之间的位置，也包括\w和$之间的位置。var result = "[JS] Lesson_01.mp4".replace(\b/g, '#');console.log(result); // => "[#JS#] #Lesson_01#.#mp4#"
+       *  \B就是\b的反面的意思，非单词边界。例如在字符串中所有位置中，扣掉\b，剩下的都是\B的。具体说来就是\w与\w、\W与\W、^与\W，\W与$之间的位置。
+       *  (?=p)，其中p是一个子模式，即p前面的位置。var result = "hello".replace(/(?=l)/g, '#');console.log(result); // => "he#l#lo"
+       *  (?!p)就是(?=p)的反面意思，var result = "hello".replace(/(?!l)/g, '#');console.log(result); // => "#h#ell#o#"
+   * 位置的特性
+       *  于位置的理解，我们可以理解成空字符""。  比如"hello"字符串等价于如下的形式： "hello" == "" + "h" + "" + "e" + "" + "l" + "" + "l" + "o" + ""; 也等价于： "hello" == "" + "" + "hello"
+       *  因此，把/^hello$/写成/^^hello$$$/，是没有任何问题的：
+       *  字符之间的位置，可以写成多个    （把位置理解空字符，是对位置非常有效的理解方式。）
+
+
+
+
+
+
 
 
       

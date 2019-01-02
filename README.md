@@ -139,6 +139,8 @@
 
 
 ####   ES6
+ 1. react react-native es6 https://github.com/reactnativecn/react-native-guide
+
 ####   ES7
 ####   JSX
 ####   TYPESCRIPT

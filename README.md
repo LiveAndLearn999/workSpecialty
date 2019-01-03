@@ -210,7 +210,7 @@ https://juejin.im/post/5c2c18116fb9a049fb43c32c
 ####   Grunt （https://blog.csdn.net/qq_42606051/article/details/81041825）
 
 ## 浏览器相关
-#### webkit内幕
+#### webkit内幕(first-book)
 ##### 浏览器&浏览器内核
 ###### 浏览器的特征
        1. 网络： 它是第一步，浏览器通过网络模块来下载各种各样的资源，例如html文本，网络资源其实是非常重要的，因为它耗时比较长而且需要安全访问互联网上的资源。
@@ -235,6 +235,13 @@ https://juejin.im/post/5c2c18116fb9a049fb43c32c
         8. 展示（presentation）
         9. 性能（performance）
         10. 其他（Nuts and bolts）
+###### http
+       1. 是一种构建在TCP/IP之上得应用层协议，用于传输HTML文本和所涉及得各种资源，包括图片和多媒体等。随后，安全版得http也就是https诞生，它在http之下加入SSL/TLS 用于安全得传输数据
+       2. 用户代理和浏览器行为
+        1. 用户代理 作用就是：表明浏览器得身份
+       3. 浏览器内核及特性
+        1. 内核和主流内核
+        
        
 
 ## 协议相关

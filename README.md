@@ -16,6 +16,11 @@
 1. 菜鸟教程：http://www.runoob.com/（HTML事件：http://www.runoob.com/tags/ref-eventattributes.html）
 
 ##  css
+#### css-book
+ 1. CSS权威指南
+ 2. CSS揭秘
+ 3. CSS世界
+ 4. 
 1. 菜鸟教程：http://www.runoob.com/ (伪类：http://www.runoob.com/css/css-pseudo-classes.html 伪元素 http://www.runoob.com/css/css-pseudo-elements.html)
 * 1 伪类PK伪元素
   1. 伪类选择元素基于的是当前元素处于的状态，或者说元素当前所具有的特性，而不是元素的id、class、属性等静态的标志。由于状态是动态变化的，所以一个元素达到一个特定状态时，它可能得到一个伪类的样式；当状态改变时，它又会失去这个样式。由此可以看出，它的功能和class有些类似，但它是基于文档之外的抽象，所以叫伪类。
@@ -56,6 +61,19 @@
 ####   Stylus
 
 ##  JS
+####   javascript-book
+https://juejin.im/post/5c2c18116fb9a049fb43c32c
+1. JavaScript高级程序设计
+2. JavaScript语言精粹
+3. 编写可维护的 JavaScript
+4. ES6 标准入门
+5. 你不知道的 JavaScript ，上中下三卷
+6. JavaScript 忍者秘籍
+7. JavaScript 函数式编程指南
+8. 高性能 JavaScript 
+
+
+
 ####   javascript
 1. 菜鸟教程 http://www.runoob.com/js/js-tutorial.html
 2. HTML CSS JAVASCRIPT三者之间的关系

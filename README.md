@@ -225,16 +225,16 @@ https://juejin.im/post/5c2c18116fb9a049fb43c32c
    *  html
        1. 1991----1.0  1997----4.1  1999----4.01  2012----html5
        2. HTML5 特征
-         *.  离线（offline）
-         *. 存储（storage）
-         *. 链接（connectivity）
-         *. 文件访问（file access）
-         *. 语义（semantics）
-         *. 音频和视频（audio/video）
-         *. 3D和图形（3D/graphics）
-         *. 展示（presentation）
-         *. 性能（performance）
-         *. 其他（Nuts and bolts）
+        1. 离线（offline）
+        2. 存储（storage）
+        3. 链接（connectivity）
+        4. 文件访问（file access）
+        5. 语义（semantics）
+        6. 音频和视频（audio/video）
+        7. 3D和图形（3D/graphics）
+        8. 展示（presentation）
+        9. 性能（performance）
+        10. 其他（Nuts and bolts）
        
 
 ## 协议相关

@@ -394,14 +394,20 @@ https://juejin.im/post/5965943ff265da6c30653879
     * 当数据规模增长的时候，非多项式量级的执行时间就会急剧增加，所以非多项式量级的代码算法是非常低效的算法
    4. 空间复杂度分析
     * 空间复杂度和时间复杂度类似推算即可 表示算法的存储空间和数据规模之间的关系。
+    
 #### javascript设计模式与开发实践（https://juejin.im/post/5c2e10a76fb9a049c0432697）
 ##### this call 和apply
    1. JavaScript的this总是指向一个对象，而具体指向哪个对象是在运行时基于函数的执行环境动态绑定的，而非函数声明时的环境。
-   2. this的指向
-    * 作为对象的方法调用
-    * 作为普通函数调用
-    * 构造函数调用
-    * Function.prototype.call或Function.prototype.apply调用
+   2. this指向
+ 
+      1. 作为对象的调用
+      
+       1. this指向该对象
+      2. 作为普通汉顺调用
+      
+       1. this指向全局变量 在浏览器的JavaScript里 这个对象就是window
+
+   
     
     
 

@@ -252,7 +252,7 @@ https://juejin.im/post/5c2c18116fb9a049fb43c32c
        5. 渲染引擎的核心过程
         1. 首先是网页内容，输入到HTML解释器，HTML解释器在解释它后构建成一颗DOM树。这期间如果遇到JavaScript代码则交给JavaScript引擎去处理，如果网页中包含css，则交给css解释器去解释。当DOM建立的时候，渲染引擎接受来自css解释器的样式信息，构建一个新的内部绘图模型。该模型由布局模块计算模型内部各个组件的位置和大小信息。最后由绘图模块完全从该模型到图像的绘制。
 ###### webkit内核
-      1. webkit   1998 khtml   2001 苹果-webkit  2005-- webikit开源
+      1. webkit   1998 khtml   2001 苹果-webkit  2005-- webikit开源 广义上： webkit项目 狭义上：是指在webCore（包含html解释器，css解释器和布局等模块）和JavaScript引擎之上的一层绑定和嵌入式编程接口，可以被各种浏览器调用
         
        
 

@@ -398,10 +398,10 @@ https://juejin.im/post/5965943ff265da6c30653879
   1. this call 和apply
    * JavaScript的this总是指向一个对象，而具体指向哪个对象是在运行时基于函数的执行环境动态绑定的，而非函数声明时的环境。
    * this的指向
-    1. 作为对象的方法调用
-    2. 作为普通函数调用
-    3. 构造函数调用
-    4. Function.prototype.call或Function.prototype.apply调用
+    * 作为对象的方法调用
+    * 作为普通函数调用
+    * 构造函数调用
+    * Function.prototype.call或Function.prototype.apply调用
     
     
 

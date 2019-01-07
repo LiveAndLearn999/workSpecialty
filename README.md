@@ -400,12 +400,16 @@ https://juejin.im/post/5965943ff265da6c30653879
    1. JavaScript的this总是指向一个对象，而具体指向哪个对象是在运行时基于函数的执行环境动态绑定的，而非函数声明时的环境。
    2. this指向
  
-      1. 作为对象的调用
+      1. 作为对象的方法调用---- this指向该对象
+      2. 作为普通函数调用-------this指向全局对象 在浏览器的JavaScript里 这个全局对象就是window
+      3. 作为构造器调用---------当用new调用函数时，该函数总会返回一个对象，通常情况下构造器里的this就是这个返回的对象；如果构造器显式的返回了一个Object对象 那么运算结果会返回这个对象
+      4. Function.prototype.call 或 Function.prototype.apply调用------可以动态的传入this
+   3. call和apply
+      1. Function.prototype.call 和 Function.prototype.apply 都是非常常用的方法。它们的作用一模一样，区别仅在于传入参数形式的不同
+      方法             apply                     call
+      第一个参数       函数体内this对象的指向      函数体内this对象的指向
+      第二个参数       带小标的集合               从第二个参数开始，每个参数被一次传入函数
       
-       1. this指向该对象
-      2. 作为普通汉顺调用
-      
-       1. this指向全局变量 在浏览器的JavaScript里 这个对象就是window
 
    
     
